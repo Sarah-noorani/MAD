@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="389dp"
+        android:layout_height="547dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Header Row -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Subject"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Marks (Out of 100)"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Credits"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Subject Rows -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject1Marks"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject1Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 2"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject2Marks"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject2Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 3"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject3Marks"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject3Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 4"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject4Marks"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject4Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 5"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject5Marks"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject5Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Subject 6"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject6Marks"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter marks"
+                android:inputType="number"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/subject6Credits"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter credits"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:text="Calculate GPA" />
+    </TableLayout>
+
+</RelativeLayout>
